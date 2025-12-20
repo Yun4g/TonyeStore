@@ -41,7 +41,7 @@ export default function Navbar() {
                         className="absolute bottom-1 h-1 bg-yellow-400 rounded-full"
                         style={{
                             width: `100px`,
-                            left: `calc(${activeIndex < 0 ? 7 : activeIndex} * ${100 / navLinks.length}% + 70px)`,
+                            left: `calc(${activeIndex < 0 ? 2 : activeIndex} * ${100 / navLinks.length}% + 40px)`,
                         }}
                     />
                 </div>
