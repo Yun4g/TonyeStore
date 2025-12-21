@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         
         <div className="flex flex-col space-y-4">
-          <h1 className="text-2xl font-bold">Tonye Store</h1>
+          <h1 className="text-2xl font-bold">Tracy Luxe Jewels</h1>
           <p className="text-gray-300">
             Bringing you quality products and amazing deals. Shop with confidence.
           </p>
@@ -92,7 +92,7 @@ export default function Footer() {
 
 
       <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
-        &copy; {new Date().getFullYear()} Tonye Store. All rights reserved.
+        &copy; {new Date().getFullYear()} Tracy Luxe Jewels. All rights reserved.
       </div>
     </footer>
   );

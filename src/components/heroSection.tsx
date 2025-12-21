@@ -18,7 +18,7 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, []);
 
-  const mainLine = "Welcome to Tonye Store";
+  const mainLine = "Welcome to Tracy Luxe Jewels";
 
   const textVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
@@ -56,6 +56,9 @@ export default function Hero() {
         >
           {mainLine}
         </motion.h2>
+
+
+
 
         <Typed
           strings={[
