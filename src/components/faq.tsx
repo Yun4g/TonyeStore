@@ -8,13 +8,13 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "What products do you offer?",
+    question: "What products do we offer?",
     answer:
       "We offer a wide range of quality products including  Earings, Necklace etc.",
   },
   {
     question: "Do you offer shipping?",
-    answer: "Yes shipping is available on orders within the Rivers State",
+    answer: "Yes shipping is available on orders within  Rivers State",
   },
   {
     question: "What is your return policy?",
@@ -35,6 +35,8 @@ export default function FAQSection() {
       <h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-8 text-[#050b41]">
         Frequently Asked Questions
       </h2>
+
+
 
       <div className="flex flex-col gap-4">
         {faqs.map((faq, index) => {
