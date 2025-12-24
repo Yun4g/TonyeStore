@@ -3,12 +3,7 @@
 export default function PageLoader() {
     return (
         <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80">
-            <img
-                src="/tonye.jpg"
-                alt="Owner"
-                className="sm:w-24 sm:h-24 object-cover  animate-ping rounded-full shadow-lg border-4 border-yellow-400 "
-            />
-
+            <div className="loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-16 w-16"></div>
         </div>
     );
 }

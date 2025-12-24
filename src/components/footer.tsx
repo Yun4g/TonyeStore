@@ -60,14 +60,7 @@ export default function Footer() {
                 Contact
               </a>
             </li>
-            <li>
-              <a
-                href="/Gallery"
-                className="hover:text-yellow-400 transition-colors duration-200"
-              >
-                Gallery
-              </a>
-            </li>
+    
           </ul>
         </div>
 
