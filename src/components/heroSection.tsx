@@ -52,7 +52,7 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           variants={textVariants}
-          className="text-4xl sm:text-6xl font-extrabold mb-6 text-white"
+          className="text-3xl sm:text-6xl font-extrabold mb-6 text-white"
         >
           {mainLine}
         </motion.h2>
